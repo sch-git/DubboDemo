@@ -14,7 +14,7 @@
     @Exchange 
     <blockquote>
       value:配置交换器名称<br/>
-      type:具体的交换器类型<br/>
+      type:具体的交换器类型<br/>\
     </blockquote>
   </blockquote>
 </blockquote>

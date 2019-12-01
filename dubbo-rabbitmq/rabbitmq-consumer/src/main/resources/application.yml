@@ -1,0 +1,18 @@
+spring:
+  rabbitmq:
+    port: 5672
+    username: root
+    password: root
+    host: localhost
+#自定义变量
+mq:
+  config:
+    exchange: direct #交换器名称
+    info:
+      name: infoName #队列名
+      key: infoKey #路由键
+    error:
+      name: errorName
+      key: errorKey
+server:
+  port: 8001
